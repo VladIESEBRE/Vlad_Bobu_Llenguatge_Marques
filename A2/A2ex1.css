@@ -1,0 +1,93 @@
+h1 {
+  color: blue;
+  font-family: Arial;
+}
+h2 {
+  color: #cc22ff; 
+  font-family: Arial;
+}
+h3 {
+  color: #cc22ff; 
+  font-family: Arial;
+}
+h4 {
+  color: #cc22ff; 
+  font-family: Arial;
+}
+body{
+  background-color: #fddaef;  
+  margin: 4em;
+  font-family: serif; font-size: 1.2em;
+  line-height: 125%;
+  width: 90%; 
+  
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.0em;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.0em;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  padding: 10px 0;
+}
+
+#p1 {
+text-indent: 3em;
+font-family: Arial;
+text-align: center;
+}
+#p1::first-letter{
+font-weight: bold;   
+font-size: 300%;  
+}
+.p2 {
+text-indent: 3em;
+font-size: 1,8em; 
+font-family: Helvetica;
+color:green;
+}
+.p3 {
+text-indent: 3em;
+font-family: monospace;
+font-size: 1,5em;
+color: teal;
+}
+
+.python{
+border: 1px solid black;
+padding: 10px;        
+display: inline-block;  
+}
+a{
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
