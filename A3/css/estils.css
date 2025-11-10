@@ -57,6 +57,7 @@ body {
   color: orange;   
 }
 .cambiarlink {
+  color:orange;
   text-decoration:none;
 }
 .cambiarlink:hover{
