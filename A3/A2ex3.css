@@ -1,0 +1,231 @@
+body {
+  background-color: yellow;
+  font-family: Serif;
+  color: #333;
+ 
+}
+.bodyg {
+  font-family: Serif;
+  font-size: 1.3rem;
+  background-color: lightgray; 
+  width: 85%;             
+  margin:0 auto ;
+  min-height: 100vh;   
+  overflow-x: hidden;
+  padding-left: 3rem;
+  padding-right: 3rem;
+ 
+  
+}
+.header{
+  position: relative;
+  left: 50%;
+  width: 100vw;             
+  margin-left: -50vw;       
+  background-color: #555;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.menu{
+  position: relative;
+  left: 50%;
+  width: 100vw;             
+  margin-left: -50vw;       
+  background-color: #555;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  
+}
+.titulo {
+  color: orange;
+  padding: 10px 15px;
+  text-decoration:none;
+}
+.titulo:hover{
+  color:black;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.cambiarlink:visited {
+  color: orange;   
+}
+.cambiarlink {
+  text-decoration:none;
+}
+.cambiarlink:hover{
+color:black;
+
+}
+
+
+h2{
+  color:#4682B4;
+  font-family: Serif;
+}
+.bold{
+  font-weight: bold;
+  font-family: Serif;
+  font-size:1.5rem;
+}
+.linea {
+  height: 3px;
+  background: grey; 
+  width: 100%;
+}
+.menu2 {
+  display: flex;                 
+  justify-content: left; 
+  padding: 0.5rem;
+}
+.titulo2 {
+  padding: 10px 15px;
+}
+.iconos{
+  padding: 11px 8px;
+  margin-bottom: -0.5rem;
+  height: 1.3rem;
+  margin-left: -0.5rem;
+}
+h3{
+  text-align: center;
+  margin-top: 0.5rem;
+}
+h4{
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom:-0.1rem;
+  margin-top:0.2rem;
+}
+.links{
+  color:orange;
+  display: flex;
+  margin-top:0.3rem;
+  margin-bottom:2rem;
+}
+.links:hover{
+  color:black;
+  text-decoration:underline;
+}
+.footer {
+  background-color: #BA55D3; 
+  width: 100%;             
+  padding: 1.5rem 0;             
+       
+}
+.logofooter{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+
+/*Página arcs*/
+.columnas{
+  display: flex;         
+     
+}
+.left{
+  display: flex;
+  flex:1;
+  flex-direction:column; 
+  font-size: 1.7rem;
+  
+}
+.right{
+  display: flex;
+  flex:2  ;
+  flex-direction:column;
+}
+.titolarc{
+  margin-bottom:3rem;
+  margin-left:-2rem;
+
+}
+.foto1{
+  display:flex;
+  margin-top:5rem;
+  margin-bottom:-3rem;
+  height: 650px;
+  width:800px;
+}
+.arcstitol {
+  display :flex;
+  flex-direction:column ;
+  background-repeat: no-repeat;
+  list-style:url(img/icono-cine.png);
+  margin-left:-2rem;
+  color: LightSeaGreen  ;
+  font-weight: bold;
+  margin-top:-1rem;
+}
+.listanum{
+  margin-top:-1rem;
+  margin-left:1rem;
+}
+
+/*Página personajes*/
+
+.listapersonajes{
+  list-style-type:circle;
+  margin-top:-1rem;
+  margin-left:-1rem;
+  color: orange;
+}
+
+
+.fotopersonaje img {
+  
+  width: 100px;   
+  height: 150px;
+  display: block;
+  margin: 0 auto;  
+}
+.linksp{
+  text-decoration:none;
+  color:orange;
+}
+a.linksp:hover{
+  text-decoration:underline;
+  color:black;
+}
+.linksp:visited{
+  color: orange;  
+}
+.linea2 {
+  height: 27px;
+  background: grey; 
+  width: 15%;
+  margin: 0 auto; 
+  margin-top:1rem;
+}
+.sabernemes{
+  font-weight: bold;
+  margin-left:6rem;
+  color:orange;
+  text-decoration:none;
+  
+
+}
+a.sabernemes:hover{
+  color:white;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.sabernemes:visited{
+  color: orange;  
+
+.foot{
+margin-top:25rem;
+}
+
+  
+
+ 
