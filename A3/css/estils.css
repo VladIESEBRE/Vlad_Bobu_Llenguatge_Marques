@@ -206,12 +206,16 @@ a.linksp:hover{
   width: 15%;
   margin: 0 auto; 
   margin-top:1rem;
+   overflow-x: hidden;
+   overflow-y: hidden;
 }
 .sabernemes{
+  display:flex;
   font-weight: bold;
-  margin-left:6rem;
+  justify-content:center; 
   color:orange;
   text-decoration:none;
+  margin: 0 auto
   
 
 }
