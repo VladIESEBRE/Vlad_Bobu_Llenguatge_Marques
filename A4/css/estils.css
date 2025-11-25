@@ -1,0 +1,309 @@
+body{   
+ background-color:lightgrey;
+  margin: 0;
+}
+.fotofondo{
+  height:87%;
+  background-size:cover;
+  background-image: url('../img/casa_encantada.jpg' );
+  background-repeat: no-repeat;
+  
+  min-height: 73.1vh;
+}
+.header{
+  display:flex;
+  background-color:green;
+  width:100%;
+  height:7rem;
+  
+}
+.fotohotel{
+  margin-top:0.5rem;
+  margin-bottom:0.5rem;
+  margin-left: 2rem;
+}
+.menu{
+  position: relative;
+  left: 85%;                
+  gap: 10rem;
+  display: flex;
+  margin-top: 2rem;
+  font-size:2.5rem;
+}
+.titulo1 a:link{
+  color:white;
+  text-decoration: none;
+}
+.titulo1 a:hover{
+  color:black;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.titulo1 a:visited{
+  color: white;  
+}
+.titulo2 a:link{
+  color:white;
+  text-decoration: none;
+}
+.titulo2 a:hover{
+  color:black;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.titulo2 a:visited{
+  color: white;  
+}
+.titulo3 a:link{
+  color:white;
+  text-decoration: none;
+}
+.titulo3 a:hover{
+  color:black;
+  text-decoration:underline;
+  cursor:pointer;
+}
+.titulo3 a:visited{
+  color: white;  
+}
+.linea{
+  background-color:grey;
+  width:100%;
+  height:0.6rem;
+}
+.letraroja1{
+  display:flex;
+  color:red;
+  font-size:5rem;
+  margin-left: 5rem;
+  margin-top: 0rem;
+  font-weight: bold;
+}
+.letraroja2{
+  display:flex;
+  color:red;
+  font-size:3rem;
+  margin-left: 5rem;
+  margin-top:vw;
+  font-weight: bold;
+
+}
+
+footer{
+  display:flex;
+   flex-direction: column;
+  background-color:green;
+  bottom:0;
+  width:100%;
+  height: 9vw;
+}
+.Textofooter{
+             
+  display: flex;
+  margin-top: 2rem;
+  margin-left:4rem;
+  font-size:1.5rem;
+}
+.menu2{     
+  gap: 0.5rem;
+  display: flex;
+  margin-top: 2rem;
+  font-size:1.5rem;
+}
+.textofooter2{
+ color: white;
+ text-decoration: underline;
+ 
+  text-decoration-color: white;
+  text-decoration-style: dotted;
+}
+.textofooter3{
+ margin-left:4rem;
+}
+.iconos{
+margin-top:-0.5rem;
+color: white;
+ text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: dotted;
+}
+.bodyprecio {
+  min-height: 73.1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.titulprecio{
+ text-align: left;
+    margin-top: 40px;
+    font-size: 32px;
+
+}
+h1 {
+    text-align: center;
+    margin: 40px 0 20px;  
+    font-size: 4rem;
+    font-weight: normal;
+}
+
+h1 span {
+    color: #1a49e8;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+
+table {
+    width: 40%;
+    margin: 0 auto 40px;   
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background: #334455;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border-right: 2px solid white;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    border-right: 2px solid white;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+table tr:nth-child(2) {
+    background-color: #DFEBF0;
+}
+
+table tr:nth-child(5) {
+    background-color: #DFEBF0;
+}
+
+.filafinal {
+    text-align: center;
+    background-color: #334455;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+ 
+ 
+ 
+ 
+ /* Formulario */
+ 
+.form {
+  max-width: 1000px;
+  max-height: 80vh;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f3f3f3;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+  overflow-y: auto;
+  margin-top:5rem;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}
+
+
+.col {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100	%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0b7dda;
+}
+
+.dates-group {
+  display: flex;
+  gap: 20px;
+}
+
+.dates-group div {
+  flex: 1;
+}
+
+.dates-group label {
+  font-weight: bold;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.dates-group input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;  
+  font-family: Arial, sans-serif;
+}
+
+.parking-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+small {
+  color: #666;
+  font-size: 13px;
+}
+.esmorzar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+

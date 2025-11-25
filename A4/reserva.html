@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vlad Bobu">
+    <meta name="description" content="Hotel Terror Precios">
+    <meta name="keywords" content="Hotel, terror,cuatro,estrellas,precios">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estils.css">
+    <title>Hotel Terror Precios</title>
+</head>
+<body>
+<div class="header">
+  <a class="fotohotel" href="index.html">
+  <img class="fotohotel" src="img/estrelles.jpg" alt="logo hotel">
+  </a>
+ <nav>
+    <div class="menu">
+    <div class="titulo1">
+    <a href="index.html">Inicio</a>
+    </div>
+    <div class="titulo2">
+    <a href="precios.html">Precios</a>
+    </div>
+    <div class="titulo3">
+    <a href="reserva.html">Reserva</a> 
+    </div> 
+</div>
+  </nav> 
+</div>
+<div class="linea">
+</div>
+<div class ="bodyprecio">
+
+<form action="#" method="POST" class="form">
+
+  <div class="row">
+    
+  
+    <div class="col">
+      <label for="opcion">Dades personals:</label>
+      <select id="opcion" name="opcion" required>
+        <option value="">-- Selecciona --</option>
+        <option value="sr">Sr.</option>
+        <option value="sra">Sra.</option>
+        <option value="srta">Srta.</option>
+      </select>
+
+      <label for="nom">Nom:</label>
+      <input type="text" id="nom" name="nom" required>
+
+      <label for="cognom">Cognom:</label>
+      <input type="text" id="cognom" name="cognom" required>
+      
+      <label for="telefon">Telèfon:</label>
+      <input type="text" id="telefon" name="telefon" required>
+
+      <label for="email">Correu electrònic:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="confirmar_email">Confirmar correu electrònic:</label>
+      <input type="email" id="confirmar_email" name="confirmar_email" required>
+      
+      <label for="clave">Contraseña:</label>
+      <input type="password" id="clave" name="clave" required>
+    </div>
+
+    
+    <div class="col">
+    <label for="opcion">Dades de la reserva:</label>
+    
+    <select id="opcion" name="opcion" required>
+        <option value="">-- Tipus d'habitació --</option>
+        <option value="sr">Habitació individual</option>
+        <option value="sra">Habitació doble</option>
+        <option value="srta">Habitació doble superior</option>
+        <option value="srtaa">Habitació triple</option>
+      </select>
+      
+      <label for="persones">Número de persones:</label>
+    <input type="number" id="persones" name="persones" min="1" max="20" required style="appearance:none;">
+    
+<div class="dates-group">
+  <div>
+    <label for="dataEntrada">Data d'entrada:</label>
+    <input type="date" id="dataEntrada" name="dataEntrada" required>
+  </div>
+
+  <div>
+    <label for="dataSortida">Data de sortida:</label>
+    <input type="date" id="dataSortida" name="dataSortida" required>
+  </div>
+</div>
+
+<label for="peticions">Peticions especials (no es poden garantir, però farem tot el possible):</label>
+<textarea id="peticions" name="peticions" rows="4" placeholder="Ex: Cama supletòria, habitació tranquil·la, vista al mar..."></textarea>
+
+</div>
+
+<div class="col">
+<label for="opcion">Dades adicionals:</label>
+
+<label>Pàrquing cobert (8€/nit):<br>
+  <small>L'hotel disposa de pàrquing exterior gratuït.</small>
+</label>
+
+<div class="parking-options">
+  <label>
+    <input type="radio" name="parkingCobert" value="si" required>
+    Sí, vull pàrquing cobert
+  </label>
+
+  <label>
+    <input type="radio" name="parkingCobert" value="no" required>
+    No, no el necessito
+  </label>
+</div>
+
+<label for="horaArribada">Hora prevista d'arribada:</label>
+<input type="time" id="horaArribada" name="horaArribada" required>
+
+<label>Esmorzar (5€/dia):</label>
+
+<div class="esmorzar-options">
+  <label>
+    <input type="radio" name="esmorzar" value="si" required>
+    Sí, vull afegir esmorzar
+  </label>
+
+  <label>
+    <input type="radio" name="esmorzar" value="no" required>
+    No, no el necessito
+  </label>
+</div>
+
+
+
+
+</div>
+  </div>
+
+  <button type="submit">Enviar</button>
+
+</form>
+
+
+
+
+</div>
+<div class="linea">
+</div>
+<footer>
+<p class="Textofooter">Actividad realizada por&nbsp;<b>Vlad Bobu</b></p>
+<div>
+<nav>
+    <div class="menu2">
+    <div class="textofooter3"> Fotografías de la portada</div>
+    <a href="https://unsplash.com/" class="textofooter2">Unsplash</a>  
+     <a class="iconos" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">
+      <img src="img/creative-commons.png"  alt="Logo X">
+      </a>
+    </div>
+</nav> 
+
+
+
+
+
+</footer>
+
+<script>
+document.getElementById("dataSortida").addEventListener("change", function () {
+    let entrada = document.getElementById("dataEntrada").value;
+    let sortida = document.getElementById("dataSortida").value;
+
+    if (entrada && sortida && sortida <= entrada) {
+        alert("La data de sortida ha de ser posterior a la data d'entrada.");
+        this.value = "";  
+    }
+});
+</script>
+
+</body>
+
+
+</html>
