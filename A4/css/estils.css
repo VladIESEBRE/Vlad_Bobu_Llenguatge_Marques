@@ -305,5 +305,10 @@ small {
   gap: 5px;
 }
 
-
+.col:first-child input,
+.col:first-child select,
+.col:first-child textarea {
+    transform: scaleX(1.15);   /* 15% más anchos */
+    transform-origin: left;
+}
 
