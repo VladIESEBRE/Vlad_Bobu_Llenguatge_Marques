@@ -35,23 +35,23 @@
 <form action="#" method="POST" class="form">
 
   <div class="row">
-    
-  
-   <div class="col">
-  <label for="tratar">Dades personals:</label>
-  <select id="tratar" name="tratar" required>
-    <option value="">-- Selecciona --</option>
-    <option value="sr">Sr.</option>
-    <option value="sra">Sra.</option>
-    <option value="srta">Srta.</option>
-  </select>
+
+    <!-- COLUMNA 1 -->
+    <div class="col">
+      <label for="tratar">Dades personals:</label>
+      <select id="tratar" name="tratar" required>
+        <option value="">-- Selecciona --</option>
+        <option value="sr">Sr.</option>
+        <option value="sra">Sra.</option>
+        <option value="srta">Srta.</option>
+      </select>
 
       <label for="nom">Nom:</label>
       <input type="text" id="nom" name="nom" required>
 
       <label for="cognom">Cognom:</label>
       <input type="text" id="cognom" name="cognom" required>
-      
+
       <label for="telefon">Telèfon:</label>
       <input type="text" id="telefon" name="telefon" required>
 
@@ -60,89 +60,87 @@
 
       <label for="confirmar_email">Confirmar correu electrònic:</label>
       <input type="email" id="confirmar_email" name="confirmar_email" required>
-      
-      <label for="clave">Contraseña:</label>
+
+      <label for="clave">Contrasenya:</label>
       <input type="password" id="clave" name="clave" required>
     </div>
 
-    
+    <!-- COLUMNA 2 -->
     <div class="col">
-  <label for="tipohabitacio">Dades de la reserva:</label>
-  <select id="tipohabitacio" name="tipohabitacio" required>
-    <option value="">-- Tipus d'habitació --</option>
-    <option value="sr">Habitació individual</option>
-    <option value="sra">Habitació doble</option>
-    <option value="srta">Habitació doble superior</option>
-    <option value="srtaa">Habitació triple</option>
-  </select>
-      
+
+      <label for="tipohabitacio">Dades de la reserva:</label>
+      <select id="tipohabitacio" name="tipohabitacio" required>
+        <option value="">-- Tipus d'habitació --</option>
+        <option value="individual">Habitació individual</option>
+        <option value="doble">Habitació doble</option>
+        <option value="dobleSuperior">Habitació doble superior</option>
+        <option value="triple">Habitació triple</option>
+      </select>
+
       <label for="persones">Número de persones:</label>
-    <input type="number" id="persones" name="persones" min="1" max="20" required style="appearance:none;">
-    
-<div class="dates-group">
-  <div>
-    <label for="dataEntrada">Data d'entrada:</label>
-    <input type="date" id="dataEntrada" name="dataEntrada" required>
-  </div>
+      <input type="number" id="persones" name="persones" min="1" max="20" required>
 
-  <div>
-    <label for="dataSortida">Data de sortida:</label>
-    <input type="date" id="dataSortida" name="dataSortida" required>
-  </div>
-</div>
+      <div class="dates-group">
+        <div>
+          <label for="dataEntrada">Data d'entrada:</label>
+          <input type="date" id="dataEntrada" name="dataEntrada" required>
+        </div>
 
-<label for="peticions">Peticions especials (no es poden garantir, però farem tot el possible):</label>
-<textarea id="peticions" name="peticions" rows="4" placeholder="Ex: Cama supletòria, habitació tranquil·la, vista al mar..."></textarea>
+        <div>
+          <label for="dataSortida">Data de sortida:</label>
+          <input type="date" id="dataSortida" name="dataSortida" required>
+        </div>
+      </div>
 
-</div>
+      <label for="peticions">Peticions especials:</label>
+      <small>Aquestes peticions no es poden garantir, però es farà tot allò possible per
+satisfer-les.</small>
+      <textarea id="peticions" name="peticions" rows="4"
+      placeholder="Ex: Cama supletòria, habitació tranquil·la, vista al mar..."></textarea>
 
-<div class="col">
+    </div>
 
-  <h3 class="section-title">Dades adicionals:</h3>
+    <!-- COLUMNA 3 -->
+    <div class="col">
 
-  <p>Pàrquing cobert (8€/nit):<br>
-    <small>L'hotel disposa de pàrquing exterior gratuït.</small>
-  </p>
+      <h3 class="section-title">Dades adicionals:</h3>
 
-  <div class="parking-options">
-    <label>
-      <input type="radio" name="parkingCobert" value="si" required>
-      Sí, vull pàrquing cobert
-    </label>
+      <p><b>Pàrquing cobert (8€/nit):</b><br>
+        <small>L'hotel disposa de pàrquing exterior gratuït.</small>
+      </p>
 
-    <label>
-      <input type="radio" name="parkingCobert" value="no" required>
-      No, no el necessito
-    </label>
-  </div>
+      <div class="parking-options">
+        <label>
+          <input type="radio" name="parkingCobert" value="si" required>
+          Sí, vull pàrquing cobert
+        </label>
 
-  <label for="horaArribada">Hora prevista d'arribada:</label>
-  <input type="time" id="horaArribada" name="horaArribada" required>
+        <label>
+          <input type="radio" name="parkingCobert" value="no" required>
+          No, no el necessito
+        </label>
+      </div>
 
-  <label>Esmorzar (5€/dia):</label>
+      <label for="horaArribada">Hora prevista d'arribada:</label>
+      <input type="time" id="horaArribada" name="horaArribada" required>
 
-  <div class="esmorzar-options">
-    <label>
-      <input type="radio" name="esmorzar" value="si" required>
-      Sí, vull afegir esmorzar
-    </label>
+      <label>Esmorzar (5€/dia):</label>
+      <div class="esmorzar-options">
+        <label>
+          <input type="radio" name="esmorzar" value="si" required>
+          Sí, vull afegir esmorzar
+        </label>
+        <label>
+          <input type="radio" name="esmorzar" value="no" required>
+          No, no el necessito
+        </label>
+      </div>
 
-    <label>
-      <input type="radio" name="esmorzar" value="no" required>
-      No, no el necessito
-    </label>
-  </div>
+    </div>
 
-</div>
+  </div> <!-- cierre .row -->
 
-
-
-
-
-</div>
-<button type="submit">Enviar</button>
-  </div>
-
+  <button type="submit">Enviar</button>
 
 </form>
 
