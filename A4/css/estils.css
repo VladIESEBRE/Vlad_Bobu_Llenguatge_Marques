@@ -79,14 +79,13 @@ body{
   margin-top: 0rem;
   font-weight: bold;
 }
-.letraroja2{
+.letraroja2 {
   display:flex;
   color:red;
   font-size:3rem;
   margin-left: 5rem;
-  margin-top:vw;
+  margin-top: 2vw;   
   font-weight: bold;
-
 }
 
 footer{
@@ -236,7 +235,7 @@ label {
 
 input,
 select {
-  width: 100	%;
+  
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
