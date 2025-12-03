@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Vlad Bobu">
+    <meta name="description" content="Vacaciones">
+    <meta name="keywords" content="Hotel, vacaciones,estrellas,precios">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estils.css">
+    <title>Barcelona</title>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const imagenes = document.querySelectorAll(".mosaico img");
+  const overlay = document.getElementById("overlay-img");
+  const overlayImg = document.getElementById("overlay-img-src");
+
+  imagenes.forEach(img => {
+    img.addEventListener("click", () => {
+      overlayImg.src = img.src;   // Cargar la imagen clicada
+      overlay.style.display = "flex"; // Mostrar overlay
+    });
+  });
+
+  // Cerrar cuando cliques fuera de la imagen
+  overlay.addEventListener("click", () => {
+    overlay.style.display = "none";
+  });
+
+});
+
+
+function highlight() {
+  const seccio = document.getElementById("seccio");
+  const text = document.getElementById("textOcult");
+
+  seccio.style.backgroundColor = "orange";
+  seccio.style.color = "white";
+  text.style.display = "block";
+}
+
+function unhighlight() {
+  const seccio = document.getElementById("seccio");
+  const text = document.getElementById("textOcult");
+
+  seccio.style.backgroundColor = "lightyellow";
+  seccio.style.color = "black";
+  text.style.display = "none";
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    let segundos = 0;
+
+    function format(num) {
+        return num < 10 ? "0" + num : num;
+    }
+
+    function actualizarReloj() {
+        segundos++;
+
+        let h = Math.floor(segundos / 3600);
+        let m = Math.floor((segundos % 3600) / 60);
+        let s = segundos % 60;
+
+        document.getElementById("reloj").textContent =
+            format(h) + ":" + format(m) + ":" + format(s);
+    }
+
+    setInterval(actualizarReloj, 1000);
+
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.getElementById("btnRegistrar").addEventListener("click", function () {
+
+        let nom = document.getElementById("nom").value.trim();
+        let cognom = document.getElementById("cognom").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let pass1 = document.getElementById("pass1").value;
+        let pass2 = document.getElementById("pass2").value;
+
+        // Validació de camps buits
+        if (!nom || !cognom || !email || !pass1 || !pass2) {
+            alert("❌ Cal omplir tots els camps.");
+            return;
+        }
+
+        // Validació email correcte
+        if (!email.includes("@") || !email.includes(".")) {
+            alert("❌ Introdueix un correu electrònic vàlid.");
+            return;
+        }
+
+        // Longitud mínima contrasenya
+        if (pass1.length < 8) {
+            alert("❌ La contrasenya ha de tenir com a mínim 8 caràcters.");
+            return;
+        }
+
+        // Contrasenyes iguals
+        if (pass1 !== pass2) {
+            alert("❌ Les contrasenyes no coincideixen.");
+            return;
+        }
+
+        // Tot correcte
+        alert("✔ T’has registrat correctament per al viatge a Barcelona!");
+    });
+
+});
+
+</script>
+</head>
+<body>
+<div id="reloj">00:00:00</div>
+<div class="header">
+  <a class="fotohotel" href="Barcelona.html">
+    <img class="fotohotel" src="img/titol.png" alt="titol">
+  </a>
+
+  <nav>
+    <div class="menu">
+      <div class="titulo1"><a href="Barcelona.html">Barcelona</a></div>
+      <div class="titulo2"><a href="NewYork.html">New York</a></div>
+      <div class="titulo3"><a href="Paris.html">Paris</a></div>
+    </div>
+  </nav>
+</div>
+  </nav> 
+  </div>
+  </div>
+</div>
+<div class="linea">
+</div>
+
+<div class="titulo-ciudad">
+  <h1>Barcelona: Donde la historia se encuentra con el mar</h1>
+  <p>
+    Descubre una ciudad vibrante y llena de vida, donde el arte, la arquitectura y la cultura mediterránea 
+    crean una experiencia única. Recorre sus calles modernistas, disfruta de su gastronomía 
+    mundialmente reconocida y déjate cautivar por la magia que convierte a Barcelona en un destino inolvidable.
+  </p>
+  <div id="seccio"
+     onmouseover="highlight()"
+     onmouseout="unhighlight()">
+
+  <h2>Barcelona</h2>
+
+  <p id="textOcult" style="display:none;">
+    Barcelona és una ciutat plena d’història, cultura i arquitectura modernista.
+  </p>
+
+</div>
+  <div id="overlay-img">
+  <img id="overlay-img-src" src="">
+</div>
+</div>
+
+<div class="bodyprecio">
+  <div class="mosaico">
+    <div class="item"><img src="img/bar1.png"></div>
+    <div class="item"><img src="img/bar2.png"></div>
+    <div class="item"><img src="img/bar3.png"></div>
+    <div class="item"><img src="img/bar4.png"></div>
+    <div class="item"><img src="img/bar5.png"></div>
+    <div class="item"><img src="img/bar6.png"></div>
+  
+    
+    
+  </div>
+  
+   <div class="formulari">
+        <h2>Registre per al viatge a Barcelona</h2>
+
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom">
+
+        <label for="cognom">Cognom:</label>
+        <input type="text" id="cognom">
+
+        <label for="email">Correu electrònic:</label>
+        <input type="email" id="email">
+
+        <label for="pass1">Contrasenya:</label>
+        <input type="password" id="pass1">
+
+        <label for="pass2">Repeteix la contrasenya:</label>
+        <input type="password" id="pass2">
+
+        <button id="btnRegistrar">Registrar-se</button>
+    </div>
+</div>
+<div class="linea">
+</div>
+<footer>
+  <p class="Textofooter">Actividad realizada por&nbsp;<b>Vlad Bobu</b></p>
+
+  <div>
+    <nav>
+      <div class="menu2">
+        <div class="textofooter3"> Vuelos</div>
+        <a href="https://unsplash.com/" class="textofooter2">SkyScanner</a>  
+        <a class="iconos" href="https://www.skyscanner.es/?gclsrc=aw.ds&&utm_source=google&utm_medium=cpc&utm_campaign=ES-Flights-Search-ES-Generics-New&utm_term=vuelos&associateID=SEM_FLI_19465_00000&campaign_id=19402386669&adgroupid=145596942380&keyword_id=kwd-10382701&gad_source=1&gad_campaignid=19402386669&gclid=CjwKCAiA55rJBhByEiwAFkY1QHtKa11StVvAOhLjD4BkDtkLKsezD38plC4cvDe91fm6oWObkq70HRoChYIQAvD_BwE">
+          <img class ="iconos2" src="img/avion.png" alt="Logo X">
+        </a>
+      </div>
+    </nav>
+  </div>
+
+</footer>
