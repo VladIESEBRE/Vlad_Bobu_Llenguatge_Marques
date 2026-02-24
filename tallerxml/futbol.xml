@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lliga competicio="Liga BBVA">
+
+  <jornada numero="1">
+    <partit>
+      <local>R. Sociedad</local>
+      <visitant>Getafe</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Valladolid</local>
+      <visitant>Athletic</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Valencia</local>
+      <visitant>Málaga</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>FC Barcelona</local>
+      <visitant>Levante</visitant>
+      <gols_local>7</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Osasuna</local>
+      <visitant>Granada</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Sevilla</local>
+      <visitant>Atlético</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>3</gols_visitant>
+    </partit>
+    <partit>
+      <local>Celta</local>
+      <visitant>Espanyol</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>R. Madrid</local>
+      <visitant>Betis</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Rayo</local>
+      <visitant>Elche</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Almería</local>
+      <visitant>Villarreal</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>3</gols_visitant>
+    </partit>
+  </jornada>
+
+  <jornada numero="2">
+    <partit>
+      <local>Getafe</local>
+      <visitant>Almería</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Athletic</local>
+      <visitant>Osasuna</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Elche</local>
+      <visitant>R. Sociedad</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Espanyol</local>
+      <visitant>Valencia</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Villarreal</local>
+      <visitant>Valladolid</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Atlético</local>
+      <visitant>Rayo</visitant>
+      <gols_local>5</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Málaga</local>
+      <visitant>FC Barcelona</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Levante</local>
+      <visitant>Sevilla</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Betis</local>
+      <visitant>Celta</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Granada</local>
+      <visitant>R. Madrid</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+  </jornada>
+
+  <jornada numero="3">
+    <partit>
+      <local>Rayo</local>
+      <visitant>Levante</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Almería</local>
+      <visitant>Elche</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Celta</local>
+      <visitant>Granada</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Valladolid</local>
+      <visitant>Getafe</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Osasuna</local>
+      <visitant>Villarreal</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>3</gols_visitant>
+    </partit>
+    <partit>
+      <local>R. Madrid</local>
+      <visitant>Athletic</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Espanyol</local>
+      <visitant>Betis</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Valencia</local>
+      <visitant>FC Barcelona</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>3</gols_visitant>
+    </partit>
+    <partit>
+      <local>R. Sociedad</local>
+      <visitant>Atlético</visitant>
+      <gols_local>1</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Sevilla</local>
+      <visitant>Málaga</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+  </jornada>
+
+  <jornada numero="4">
+    <partit>
+      <local>Atlético</local>
+      <visitant>Almería</visitant>
+      <gols_local>4</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Levante</local>
+      <visitant>R. Sociedad</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>FC Barcelona</local>
+      <visitant>Sevilla</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Villarreal</local>
+      <visitant>R. Madrid</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+    <partit>
+      <local>Granada</local>
+      <visitant>Espanyol</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Getafe</local>
+      <visitant>Osasuna</visitant>
+      <gols_local>2</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Málaga</local>
+      <visitant>Rayo</visitant>
+      <gols_local>5</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Betis</local>
+      <visitant>Valencia</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>1</gols_visitant>
+    </partit>
+    <partit>
+      <local>Elche</local>
+      <visitant>Valladolid</visitant>
+      <gols_local>0</gols_local>
+      <gols_visitant>0</gols_visitant>
+    </partit>
+    <partit>
+      <local>Athletic</local>
+      <visitant>Celta</visitant>
+      <gols_local>3</gols_local>
+      <gols_visitant>2</gols_visitant>
+    </partit>
+  </jornada>
+
+</lliga>
