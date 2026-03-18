@@ -1,0 +1,9 @@
+<!ELEMENT inscripcio (equip , jugadors)>
+<!ELEMENT jugadors (jugador+)>
+<!ELEMENT jugador (nom , any, rols) >
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT rol (#PCDATA)>
+<!ELEMENT equip (#PCDATA)>
+<!ELEMENT rols (rol+)>
+
