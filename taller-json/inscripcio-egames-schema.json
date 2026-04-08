@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Inscripció E-Games",
+  "type": "object",
+  "properties": {
+    "nom-equip": {
+      "type": "string",
+      "description": "Nom de l'equip participant"
+    },
+    "jugadors": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 10,
+      "description": "Llista de membres de l'equip",
+      "items": {
+        "type": "object",
+        "properties": {
+          "num-jugador": {
+            "type": "integer"
+          },
+          "DNI": {
+            "type": "string"
+          },
+          "nom": {
+            "type": "string"
+          },
+          "cognom": {
+            "type": "string"
+          },
+          "edat": {
+            "type": "integer"
+          },
+          "ciutat": {
+            "type": "string"
+          },
+          "adreça": {
+            "type": "string"
+          },
+          "país": {
+            "type": "string"
+          },
+          "telèfon": {
+            "type": "integer"
+          },
+          "email": {
+            "type": "string",
+            "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+          }
+        },
+        "required": [
+          "num-jugador",
+          "DNI",
+          "nom",
+          "cognom",
+          "ciutat",
+          "email"
+        ]
+      }
+    }
+  },
+  "required": [
+    "nom-equip",
+    "jugadors"
+  ],
+  "additionalProperties": false
+}
